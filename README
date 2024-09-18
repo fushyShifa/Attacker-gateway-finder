@@ -1,5 +1,5 @@
 The homepage for this project is:
-http://pentestmonkey.net/tools/gateway-finder
+https://github.com/fushyShifa/Attacker-gateway-finder
 
 Gateway-finder is a scapy script that will help you determine which of the systems on the local LAN has IP forwarding enabled and which can reach the Internet.
 
@@ -64,7 +64,7 @@ Gateway-finder needs two bits of input from you:
 If arp.txt also contains an IP of each system on the same line as the MAC, you'll get much nicer output.  If you need to use a different network interfaces, use the -I option.
 
 # python gateway-finder.py -f arp.txt -i 209.85.227.99
-gateway-finder v1.0 http://pentestmonkey.net/tools/gateway-finder
+gateway-finder v1.0 https://github.com/fushyShifa/Attacker-gateway-finder
 
 [+] Using interface eth0 (-I to change)
 [+] Found 3 MAC addresses in arp.txt
